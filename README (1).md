@@ -1,6 +1,8 @@
 # 🤖 Agente Inteligente com WhatsApp
 
-**Criação de um Agente Inteligente com Memória, Integração com WhatsApp via API, usando FastAPI, GPT-2 (Hugging Face), Ngrok e UltraMsg – totalmente gratuito.**
+**Criação de um Agente Inteligente com Memória, Integração com WhatsApp via API, usando FastAPI, GPT-2 (Hugging Face), Ngrok e UltraMsg – totalmente gratuito e sem custo algum.**
+
+> 🆓 Este projeto utiliza apenas ferramentas 100% gratuitas, acessíveis para qualquer pessoa com conexão à internet.
 
 ---
 
@@ -30,19 +32,13 @@
 ```mermaid
 graph TD;
     A[Mensagem no WhatsApp] --> B[UltraMsg redireciona via Webhook]
-    B --> C[Servidor FastAPI (Google Colab)]
+    B --> C[Servidor FastAPI no Google Colab]
     C --> D[Agente Inteligente processa a mensagem]
     D --> E[Resposta gerada]
     E --> F[Resposta enviada ao WhatsApp via UltraMsg]
+```
 
 ---
-
----
-
-### 🎯 Resultado: esse novo diagrama vai funcionar perfeitamente no GitHub.
-
-Se quiser, posso gerar um novo `README.md` corrigido e já pronto para substituir. Deseja isso agora?
-
 
 ## 🧪 Exemplo de entrada e resposta real
 
@@ -93,8 +89,6 @@ def agente_responde(pergunta):
 ---
 
 ### 2. Defina o servidor FastAPI
-
-> ⚠️ Separar o `uvicorn.run(...)` em outra célula!
 
 ```python
 from fastapi import FastAPI, HTTPException
