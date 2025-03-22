@@ -162,9 +162,7 @@ uvicorn.run(app, host="0.0.0.0", port=8000)
 
 ## 📸 Print do projeto em ação
 
-> Substitua com um print real:
-
-![insomnia screenshot](https://user-images.githubusercontent.com/placeholder.png)
+![insomnia screenshot](https://drive.google.com/file/d/14j2MUA0t4B97TBCjgQGTgf5_7IPx7FM7/view?usp=sharing)
 
 ---
 
@@ -172,7 +170,7 @@ uvicorn.run(app, host="0.0.0.0", port=8000)
 
 **Rodrigo Ribeiro Carvalho**  
 GitHub: [Rodrigo-RRC](https://github.com/Rodrigo-RRC)  
-LinkedIn: [linkedin.com/in/rodrigoribeirocarvalho](https://www.linkedin.com/in/rodrigoribeirocarvalho)
+LinkedIn: [linkedin.com/in/rodrigoribeirocarvalho](https://www.linkedin.com/in/rodrigo-ribeiro-datascience/)
 
 ---
 
