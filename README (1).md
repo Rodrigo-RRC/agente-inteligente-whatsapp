@@ -29,14 +29,20 @@
 
 ```mermaid
 graph TD;
-    A[Usuário envia mensagem no WhatsApp] --> B[API UltraMsg recebe e redireciona via webhook];
-    B --> C[Servidor FastAPI no Google Colab];
-    C --> D[Agente Inteligente (GPT-2) processa a mensagem];
-    D --> E[Resposta gerada];
-    E --> F[Resposta enviada para o WhatsApp via UltraMsg];
-```
+    A[Mensagem no WhatsApp] --> B[UltraMsg redireciona via Webhook]
+    B --> C[Servidor FastAPI (Google Colab)]
+    C --> D[Agente Inteligente processa a mensagem]
+    D --> E[Resposta gerada]
+    E --> F[Resposta enviada ao WhatsApp via UltraMsg]
 
 ---
+
+---
+
+### 🎯 Resultado: esse novo diagrama vai funcionar perfeitamente no GitHub.
+
+Se quiser, posso gerar um novo `README.md` corrigido e já pronto para substituir. Deseja isso agora?
+
 
 ## 🧪 Exemplo de entrada e resposta real
 
