@@ -162,7 +162,7 @@ uvicorn.run(app, host="0.0.0.0", port=8000)
 
 ## 📸 Print do projeto em ação
 
-![insomnia screenshot](https://drive.google.com/file/d/14j2MUA0t4B97TBCjgQGTgf5_7IPx7FM7/view?usp=sharing)
+![insomnia screenshot](https://github.com/Rodrigo-RRC/agente-inteligente-whatsapp/blob/main/Captura%20de%20tela%202025-03-21%20223819.png?raw=true)
 
 ---
 
